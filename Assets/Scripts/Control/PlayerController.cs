@@ -46,6 +46,9 @@ namespace RPG.Control
                 if (target == null)
                     continue;
 
+                if (!GetComponent<Fighter>().CanAttack(target))
+                    continue;
+
                 if (Input.GetMouseButtonDown(0))
                 {
                     GetComponent<Fighter>().Attack(target);
