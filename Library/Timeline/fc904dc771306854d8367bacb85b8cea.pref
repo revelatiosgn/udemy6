@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeInFrames: 1
-  timeAreaShownRange: {x: 0.78073585, y: 10.780735}
+  timeAreaShownRange: {x: -0.07604562, y: 9.923953}
   showAudioWaveform: 1
   trackHeight: 30
   trackScale: 1
@@ -22,13 +22,9 @@ MonoBehaviour:
   windowTime: 0
   verticalScroll: 0
   m_Keys:
-  - {fileID: 114966123304375202, guid: fc904dc771306854d8367bacb85b8cea, type: 2}
   - {fileID: 114884930405629800, guid: fc904dc771306854d8367bacb85b8cea, type: 2}
   - {fileID: 114299644494034594, guid: fc904dc771306854d8367bacb85b8cea, type: 2}
   m_Vals:
-  - collapsed: 0
-    showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
