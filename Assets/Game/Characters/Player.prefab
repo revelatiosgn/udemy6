@@ -107,37 +107,37 @@ PrefabInstance:
     - target: {fileID: 1803895099176935582, guid: adf5e78db92910947b3dd4da69d22dd1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -34.31
       objectReference: {fileID: 0}
     - target: {fileID: 1803895099176935582, guid: adf5e78db92910947b3dd4da69d22dd1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 5.101
       objectReference: {fileID: 0}
     - target: {fileID: 1803895099176935582, guid: adf5e78db92910947b3dd4da69d22dd1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -29.91
       objectReference: {fileID: 0}
     - target: {fileID: 1803895099176935582, guid: adf5e78db92910947b3dd4da69d22dd1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1803895099176935582, guid: adf5e78db92910947b3dd4da69d22dd1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.60965365
       objectReference: {fileID: 0}
     - target: {fileID: 1803895099176935582, guid: adf5e78db92910947b3dd4da69d22dd1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1803895099176935582, guid: adf5e78db92910947b3dd4da69d22dd1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.792668
       objectReference: {fileID: 0}
     - target: {fileID: 1803895099176935582, guid: adf5e78db92910947b3dd4da69d22dd1,
         type: 3}
@@ -152,11 +152,26 @@ PrefabInstance:
     - target: {fileID: 1803895099176935582, guid: adf5e78db92910947b3dd4da69d22dd1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 75.129005
       objectReference: {fileID: 0}
     - target: {fileID: 1803895099176935582, guid: adf5e78db92910947b3dd4da69d22dd1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7595864800129458735, guid: adf5e78db92910947b3dd4da69d22dd1,
+        type: 3}
+      propertyPath: timeBetweenAttacks
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7595864800129458735, guid: adf5e78db92910947b3dd4da69d22dd1,
+        type: 3}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5742198914221435726, guid: adf5e78db92910947b3dd4da69d22dd1,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
