@@ -43,6 +43,7 @@ MonoBehaviour:
   patrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 1
+  patrolSpeedFraction: 0.2
 --- !u!1001 &3873137682619153215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -125,6 +126,33 @@ PrefabInstance:
       propertyPath: damage
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7595864800129458735, guid: adf5e78db92910947b3dd4da69d22dd1,
+        type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 76f8f376598ce284dae17fe64dd21c97,
+        type: 2}
+    - target: {fileID: 7595864800129458735, guid: adf5e78db92910947b3dd4da69d22dd1,
+        type: 3}
+      propertyPath: handTransform
+      value: 
+      objectReference: {fileID: 8150140641060733959}
+    - target: {fileID: 7595864800129458735, guid: adf5e78db92910947b3dd4da69d22dd1,
+        type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 76f8f376598ce284dae17fe64dd21c97,
+        type: 2}
+    - target: {fileID: 7595864800129458735, guid: adf5e78db92910947b3dd4da69d22dd1,
+        type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 8150140641060733959}
+    - target: {fileID: 7595864800129458735, guid: adf5e78db92910947b3dd4da69d22dd1,
+        type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 8150140641060807685}
     - target: {fileID: 5742198914221435726, guid: adf5e78db92910947b3dd4da69d22dd1,
         type: 3}
       propertyPath: m_Speed
@@ -201,3 +229,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30cf93deff988e74e88a144bd2127c18, type: 3}
+--- !u!4 &8150140641060807685 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 481036, guid: 30cf93deff988e74e88a144bd2127c18,
+    type: 3}
+  m_PrefabInstance: {fileID: 8150140641060336393}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8150140641060733959 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 423694, guid: 30cf93deff988e74e88a144bd2127c18,
+    type: 3}
+  m_PrefabInstance: {fileID: 8150140641060336393}
+  m_PrefabAsset: {fileID: 0}
