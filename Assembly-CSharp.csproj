@@ -66,11 +66,11 @@
      <Compile Include="Assets\Scripts\Control\PatrolPath.cs" />
      <Compile Include="Assets\Scripts\Control\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Core\ActionScheduler.cs" />
+     <Compile Include="Assets\Scripts\Core\DestroyAfterEffect.cs" />
      <Compile Include="Assets\Scripts\Core\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\Core\IAction.cs" />
      <Compile Include="Assets\Scripts\Core\PersistentObjectSpawner.cs" />
      <Compile Include="Assets\Scripts\Movement\Mover.cs" />
-     <Compile Include="Assets\Scripts\Resources\Experience.cs" />
      <Compile Include="Assets\Scripts\Resources\Health.cs" />
      <Compile Include="Assets\Scripts\Resources\HealthDisplay.cs" />
      <Compile Include="Assets\Scripts\Saving\ISaveable.cs" />
@@ -82,6 +82,10 @@
      <Compile Include="Assets\Scripts\SceneManagement\SavingWrapper.cs" />
      <Compile Include="Assets\Scripts\Stats\BaseStats.cs" />
      <Compile Include="Assets\Scripts\Stats\CharacterClass.cs" />
+     <Compile Include="Assets\Scripts\Stats\Experience.cs" />
+     <Compile Include="Assets\Scripts\Stats\ExperienceDisplay.cs" />
+     <Compile Include="Assets\Scripts\Stats\IModifierProvider.cs" />
+     <Compile Include="Assets\Scripts\Stats\LevelDisplay.cs" />
      <Compile Include="Assets\Scripts\Stats\Progression.cs" />
      <Compile Include="Assets\Scripts\Stats\Stats.cs" />
      <None Include="Assets\Asset Packs\Animations\README - Usage Rights for these assets 1.txt" />

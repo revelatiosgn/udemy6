@@ -23,7 +23,7 @@ namespace RPG.Combat
             }
             else
             {
-                GetComponent<Text>().text = String.Format("{0:0}%", target.GetPercentage());
+                GetComponent<Text>().text = String.Format("{0:0} / {1:0}", target.GetPoints(), target.GetMaxPoints());
             }
         }
     }
