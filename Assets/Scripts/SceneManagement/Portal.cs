@@ -40,6 +40,8 @@ namespace RPG.SceneManagement
             }
 
             Fader fader = FindObjectOfType<Fader>();
+            PlayerController playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+            playerController.enabled = false;
 
             yield return fader.FadeOut(fadeOutTime);
 
@@ -51,6 +53,8 @@ namespace RPG.SceneManagement
             savingWrapper.Save();
 
             yield return SceneManager.LoadSceneAsync(sceneToLoad);
+            PlayerController newPlayerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+            playerController.enabled = false;
 
             savingWrapper.Load();
             
@@ -59,7 +63,9 @@ namespace RPG.SceneManagement
 
             savingWrapper.Save();
 
-            yield return fader.FadeIn(fadeInTime);
+            fader.FadeIn(fadeInTime);
+
+            playerController.enabled = true;
 
             Destroy(gameObject);
         }
